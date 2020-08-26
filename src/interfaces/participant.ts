@@ -5,6 +5,6 @@ export enum FeeConfig {
 
 export interface IParticipant {
   readonly name: string;
-  readonly commission: number;
+  readonly percentCommission: number;
   readonly feeConfig: FeeConfig;
 }
