@@ -6,6 +6,7 @@ export interface IBillingPayment {
 }
 
 export interface IBilling {
+  readonly id: string;
   readonly totalBilling: number;
   readonly partialPayments: readonly IBillingPayment[];
 }
