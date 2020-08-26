@@ -1,5 +1,5 @@
 export interface ITransaction {
   readonly amount: number;
-  readonly fee: number;
+  readonly transactionFee: number;
   readonly antecipationFee: number;
 }
